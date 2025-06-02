@@ -63,11 +63,11 @@ Esse sistema tem como objetivo gerenciar cadastros de clientes vinculados a usu√
     `cp .env.example .env`
     `php artisan key:generate`
 
-**5- Configure o banco de dados no arquivo .env**
-    `DB_CONNECTION=mysql` 
+**5- Configure o banco de dados no arquivo .env**  
+    `DB_CONNECTION=mysql`   
     `DB_HOST=127.0.0.1`  
-    `DB_PORT=3306` 
-    `DB_DATABASE=nome_do_banco`  
+    `DB_PORT=3306`   
+    `DB_DATABASE=nome_do_banco`   
     `DB_USERNAME=usuario`  
     `DB_PASSWORD=senha` 
 
