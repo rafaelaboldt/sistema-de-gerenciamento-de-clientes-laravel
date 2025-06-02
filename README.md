@@ -47,20 +47,20 @@ Esse sistema tem como objetivo gerenciar cadastros de clientes vinculados a usu�
 ***
 
 ## Instalação e configuração
-**1- Clone o projeto**
+**1- Clone o projeto**  
     `git clone https://github.com/rafaelaboldt/sistema-de-gerenciamento-de-clientes-laravel.git`
     
-**2- Acesse a pasta do projeto**    
+**2- Acesse a pasta do projeto**      
     `cd sistema-de-gerenciamento-de-clientes-laravel`
 
-**3- Instale as dependências**
-    - Backend
-    `composer install`
-    - Frontend
+**3- Instale as dependências**  
+    - Backend  
+    `composer install`  
+    - Frontend  
     `npm install`
 
-**4- Configure o ambiente**
-    `cp .env.example .env`
+**4- Configure o ambiente**  
+    `cp .env.example .env`  
     `php artisan key:generate`
 
 **5- Configure o banco de dados no arquivo .env**  
@@ -71,14 +71,14 @@ Esse sistema tem como objetivo gerenciar cadastros de clientes vinculados a usu�
     `DB_USERNAME=usuario`  
     `DB_PASSWORD=senha` 
 
-**6- Rode as migrações**
+**6- Rode as migrações**  
     `php artisan migrate`
 
-**7- Inicie os servidores**
-    - Backend
-    `php artisan serve`
-    - Frontend
-    `npm run dev`
+**7- Inicie os servidores**  
+    - Backend  
+    `php artisan serve`  
+    - Frontend  
+    `npm run dev`  
 
-**5- Acesse no navegador**
+**5- Acesse no navegador**  
     [localhost:8000](http://localhost:8000/)
